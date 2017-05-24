@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.upm.dit.adsw.ej6.Resultados"
+    android:orientation="vertical"
+    android:id="@+id/resultadosLayout"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enseniaImcTexto"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#7C4DFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/IMCDisplay"
+            android:textAlignment="center"
+            android:textColor="#7C4DFF"
+            android:textSize="34sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/CategoriaDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultadoDefecto"
+        android:textSize="45dp"
+        android:textColor="#6200EA"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enseniaIgceTexto"
+            android:textAlignment="center"
+            android:textColor="#7C4DFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/IGCEDisplay"
+            android:textAlignment="center"
+            android:textColor="#7C4DFF"
+            android:textSize="34sp"/>
+    </LinearLayout>
+</LinearLayout>
